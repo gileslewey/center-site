@@ -1,0 +1,253 @@
+/* css */
+
+p {
+  font-size: 1.75rem;
+  font-family: 'Karla', sans-serif;
+}
+
+em {
+  font-size: 1.75rem;
+  font-family: 'Karla', sans-serif;
+}
+
+li {
+  font-size: 1.75rem;
+  font-family: 'Karla', sans-serif;
+}
+
+.box3 p {
+  font-size:1.2rem;
+}
+
+h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2.5rem;
+  padding-top: 1rem;
+}
+
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 3.25rem;
+}
+
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2rem;
+}
+
+h4 {
+  font-family: 'Karla', sans-serif;    opacity: .7;
+}
+
+h5 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2rem;
+}
+
+h6 {
+  font-family: 'Quicksand', sans-serif;
+
+  font-size: 2.5rem;
+}
+
+span {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2.5rem;
+}
+
+.box {
+  position: relative;
+}
+
+.box .text {
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 70%;
+  top: 20%;
+  width: 100%;
+}
+
+.box .text2 {
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 70%;
+  top: 15%;
+  width: 100%;
+}
+
+.box2b {
+/*  background-color: azure; */
+  /*background-color: rgb(254, 245, 114, .5  );*/
+  /*background-color: rgb(256, 216, 53, .2);*/
+  padding: 1.5rem;
+/*  border: 1px solid black;*/
+  min-height: 40rem;
+  position: relative;
+  /* border: 1px solid black;*/
+}
+
+.box2a {
+/*  background-color: azure; */
+  /*background-color: rgb(254, 245, 114, .5  );*/
+  background-color: rgb(256, 216, 53, .2);
+  padding: 1.5rem;
+/*  border: 1px solid black;*/
+  min-height: 40rem;
+  position: relative;
+  /* border: 1px solid black;*/
+}
+
+.box3 {
+  background-color: white;
+  padding: 1.5rem;
+  min-height: 25rem;
+  max-width: 434px;
+  position: relative;
+}
+
+.box4 {
+  padding: 1.5rem;
+  min-height: 35rem;
+  display: flex;
+}
+
+/*story classes*/
+.story-background {
+  padding: 1.5rem;
+  background-color: rgb(256, 216, 53);
+  width: 100%;
+  height: auto;
+}
+
+.storybold {
+  font-size: 2rem;
+  font-family: 'Karla', sans-serif;
+  font-weight: bold;
+}
+
+.story {
+  display: none;
+}
+
+.small-caps {
+  font-variant: small-caps;
+}
+
+
+.blueBox {
+  background-color: rgb(1, 61, 121);
+}
+
+.greenBox {
+  background-color: rgb(93, 151, 49);
+}
+
+.redBox {
+  background-color: rgb(175, 4, 62);
+}
+
+.purpleBox {
+  background-color: rgb(135, 33, 117);
+}
+
+.box9 {
+  background-color: rgb(1, 119, 189);
+}
+
+.box10 {
+  background-color: rgb(6, 80, 67);
+}
+
+.box11 {
+  background-color: rgb(187, 1, 15);
+}
+
+.box12 {
+  background-color: rgb(87, 52, 24);
+}
+
+.box13 {
+  background-color: white;
+  min-height: 25rem;
+  width: 18rem;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+
+.dropshadow2 {
+  width:300px;
+  box-shadow: 5px 5px 5px #999;
+}
+/* .arrow {
+  margin: 0, 0, 0, 3rem;
+} */
+.dropshadow {
+ filter: brightness(120%);
+ filter: contrast(120%);
+ filter: drop-shadow(10px 10px 10px #999);
+}
+
+/* new style */
+.sixstars img {
+  max-height: 3rem;
+}
+
+.sixstars .first img {
+  max-height: 2.5rem;
+}
+
+.arrow-forward {
+  min-height: 2.5rem;
+}
+
+.arrow-backward {
+  min-height: 2.5rem;
+}
+
+.hero-image {
+  border-bottom: 2px solid black;
+}
+
+.bottom {
+   position:absolute;
+   bottom:0;
+   right:1.25rem;
+   left:1.25rem;
+     }
+     .bottom-bullet{
+        position:absolute;
+        bottom:0;
+        right:1.25rem;
+        left:1.25rem;
+          }
+
+.more {
+  border-radius: 30px;
+  border: 1px solid white;
+  width: fit-content;
+  position: absolute;
+  right: 2rem;
+  bottom: 2rem;
+  padding: .3rem 1rem;
+  background-color: white;
+}
+
+.plus {
+  font-size: 1rem;
+  color: white;
+  font-family: 'Karla', sans-serif;
+}
+
+.bullet1 {
+  font-size: 4rem;
+  color: lightgrey;
+}
+
+.bioBlock {
+  color: white;
+  background-color: black;
+  width: 19rem;
+}
