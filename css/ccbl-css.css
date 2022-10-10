@@ -10,6 +10,11 @@ em {
   font-family: 'Karla', sans-serif;
 }
 
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
 li {
   font-size: 1.75rem;
   font-family: 'Karla', sans-serif;
@@ -50,10 +55,17 @@ h6 {
   font-size: 2.5rem;
 }
 
-span {
+
+h7 {
   font-family: 'Quicksand', sans-serif;
   font-size: 2.5rem;
+  /*padding-top: 1rem;*/
 }
+
+/* span {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2.5rem;
+} */
 
 .box {
   position: relative;
@@ -80,33 +92,25 @@ span {
 }
 
 .box2b {
-/*  background-color: azure; */
-  /*background-color: rgb(254, 245, 114, .5  );*/
-  /*background-color: rgb(256, 216, 53, .2);*/
   padding: 1.5rem;
-/*  border: 1px solid black;*/
   min-height: 40rem;
   position: relative;
-  /* border: 1px solid black;*/
 }
 
-.box2a {
-/*  background-color: azure; */
-  /*background-color: rgb(254, 245, 114, .5  );*/
+.containerBox {
   background-color: rgb(256, 216, 53, .2);
   padding: 1.5rem;
-/*  border: 1px solid black;*/
-  min-height: 40rem;
   position: relative;
-  /* border: 1px solid black;*/
+  display:flex;
 }
 
 .box3 {
   background-color: white;
   padding: 1.5rem;
-  min-height: 25rem;
+  /*min-height: 25rem;*/
   max-width: 434px;
   position: relative;
+  display: inline-block;
 }
 
 .box4 {
@@ -142,16 +146,40 @@ span {
   background-color: rgb(1, 61, 121);
 }
 
+.nameBlue {
+  color: rgb(1, 61, 121);
+  font-weight: bold;
+}
+
 .greenBox {
   background-color: rgb(93, 151, 49);
+}
+
+.nameGreen {
+  color: rgb(93, 151, 49);
+  font-weight: bold;
 }
 
 .redBox {
   background-color: rgb(175, 4, 62);
 }
 
+.nameRed {
+  color: rgb(175, 4, 62);
+  font-weight: bold;
+}
+
+.redBox a {
+text-decoration: none;
+}
+
 .purpleBox {
   background-color: rgb(135, 33, 117);
+}
+
+.namePurple {
+  color: rgb(135, 33, 117);
+  font-weight: bold;
 }
 
 .box9 {
@@ -251,3 +279,8 @@ span {
   background-color: black;
   width: 19rem;
 }
+
+.nav-text {
+  font-size:5.5vmin;
+}
+
